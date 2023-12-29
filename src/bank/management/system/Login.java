@@ -161,7 +161,9 @@ public class Login extends JFrame implements ActionListener {
 
              }else if(e.getSource()==signUpBtn){
 
-                 System.out.println("SignUp Button Clicked");
+                 new SingUp(); //calling SingUp class constructor.
+                 setVisible(false); // close the current window.
+
 
              }else if(e.getSource()==clearBtn){
 
